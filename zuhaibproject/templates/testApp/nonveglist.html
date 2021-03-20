@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% extends 'testapp/biss.html'%}
+   {% block  body_block  %}
+
+   <a href="/list"><button type="button" class="btn btn-primary navbar-btn">Home</button></a>
+
+<ul><h4>SALADS</h4></ul>
+
+   <table>
+     <p><<strong>CHICKEN WITH BONES</strong>                  : Rs.100/-</p>
+     <p><strong>CHICKEN WITHOUT BONES</strong>                : Rs.150/-</p>
+     <p><strong>MUTTON WITH BONES</strong>                    : Rs.200/-</p>
+     <p><strong>MUTTON WITHOUT BONES</strong>                 : Rs.250/-</p>
+   </table>
+
+   <a href="/register"><button type="button" class="btn btn-danger navbar-btn">Buy With Smile</button></a>
+
+
+   {%  endblock  %}
